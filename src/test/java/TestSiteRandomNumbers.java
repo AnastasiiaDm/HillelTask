@@ -16,7 +16,6 @@ public class TestSiteRandomNumbers {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver.exe");
         browser = new ChromeDriver();
         browser.get("https://www.random.org/integers/");
-        Thread.sleep(1500);
     }
 
     @AfterTest
